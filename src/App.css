@@ -1,38 +1,123 @@
+/* Add styling for your page here */
+body {
+    background-color: #F2DFD7 !important;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2DFD7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    color: #8E5572;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Item {
+  background-color: lightgrey;
+  width: 20%;
+  margin: 3%;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.Item img {
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.description {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .Item {
+        width: 40%
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.bottomLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.left {
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.active {
+    background-color: #8E5572;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    color: white;
+    margin: .25rem,
+}
+
+#dropdown-autoclose-true {
+    background-color: #8E5572;
+    outline: none;
+    border: none;
+}
+
+.type {
+    margin-top: 2em;
+}
+
+
+.not-selected {
+    border: 1px solid #222222;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: .25rem;
+}
+
+.cart {
+    margin-top: 3rem;
+    margin-right: .25rem;
+}
+
+button {
+    padding: 10px;
+}
+
+.side-container {
+    margin-top: .5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.sort {
+    margin-top: .5rem;
+}
+
+.inner-text {
+    margin-left: 1rem;
+}
+
+.item-button {
+    border: 1px solid #222222;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: .25rem;
+    height: 3rem;
+    font-size: .8rem;
+}
+
+.item-button:hover {
+    background-color: #8E5572;
+    color: white;
 }

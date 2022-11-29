@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Little Tikes Push and Ride Racer",
+    "type": "Outdoor",
+    "age": "0-2 years",
+    "price": 28.14,
+    "image": "images/littleTikes.jpg"
+  },
+  {
+    "name": "Fisher-Price Little People Animal Friends Farm",
+    "type": "Playset",
+    "age":"0-2 years",
+    "price": 42.99,
+    "image": "images/farm.jpg"
+  },
+  {
+    "name": "Fisher-Price Jurassic World Velociraptor Dinosaur Tricycle",
+    "type": "Outdoor",
+    "age": "3-5 years",
+    "price": 64.99,
+    "image": "images/tricycle.jpg"
+  },
+  {
+    "name": "Paw Patrol Talking Tracker Plush Toy",
+    "type": "Plush",
+    "age":"3-5 years",
+    "price": 29.99,
+    "image": "images/tracker.jpg"
+  },
+  {
+    "name": "TeeTurtle: Original Reversible Octopus Plushie",
+    "type": "Plush",
+    "age": "6-8 years",
+    "price": 15.00,
+    "image": "images/turtle.jpg"
+  },
+  {
+    "name": "Elmer's Slime Kit",
+    "type": "Arts and Crafts",
+    "age":"6-8 years",
+    "price": 25.00,
+    "image": "images/slime.jpg"
+  },
+  {
+    "name": "Crayola Ultimate Light Board",
+    "type": "Arts and Crafts",
+    "age":"6-8 years",
+    "price": 28,
+    "image": "images/lights.jpg"
+  },
+  {
+    "name": "Guess Who?",
+    "type": "Board Games",
+    "age": "9-12 years",
+    "price": 16.99,
+    "image": "images/guess.jpg"
+  },
+  {
+    "name": "Prismacolor Premier Colored Pencils, 132 Pack",
+    "type": "Arts and Crafts",
+    "age":"Teen",
+    "price": 109.73,
+    "image": "images/coloredPencils.jpg"
+  },
+  {
+    "name": "Monopoly: Disney Mickey and Friends Edition",
+    "type":"Board Games",
+    "age":"Teen",
+    "price": 55.99,
+    "image": "images/monopoly.jpg"
+  },
+  {
+    "name": "Made By Me Ultimate Bead Pets",
+    "type":"Arts and Crafts",
+    "age": "9-12 years",
+    "price": 21.25,
+    "image": "images/bead.jpg"
+  },
+  {
+    "name": "Candy Land",
+    "type":"Board Games",
+    "age":"6-8 years",
+    "price": 11.99,
+    "image": "images/candyLand.jpg"
+  }
+]
